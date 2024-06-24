@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.certificate {
+    background-image: url('./assets/images/background.png'); /* Add your background image URL here */
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.logo {
+    width: 120px;
+    margin-left: auto;  /* Aligns the logo to the right */
+}
+
+.course-title, .certificate-title, .recipient-name, .completion-text, .date {
+    text-align: left; /* Aligns text to the left */
+    width: 100%;
+}
+
+.certificate-title {
+    color: #333;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.recipient-name, .completion-text {
+    color: #666;
+    font-size: 16px;
+}
+
+.qr-code img {
+    margin-top: 20px;
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centers the QR code */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.doodle-block {
+    text-align: left;
+}
+
+.doodle {
+    width: 100px; /* Adjust as needed */
+}
+
+.signature {
+    width: 100px; /* Adjust as needed */
+}
+
+.signature-block p, .date {
+    color: #444;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+hr {
+    width: 80%;
+    border-top: 1px solid #ccc;
+}
+
+@media (max-width: 800px) {
+    .certificate {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .logo, .qr-code img, .signature, .doodle {
+        width: 60px;
+    }
+}

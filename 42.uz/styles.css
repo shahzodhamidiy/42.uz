@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #444444;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.certificate {
+    padding: 50px 100px;
+    background-image: url("./assets/images/background.png");
+    width: 1190px;
+    height: 1684px;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header p {
+    margin-top: auto;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.header p strong {
+    color: #FFD600;
+}
+
+/* Content styles */
+.content h1 {
+    font-size: 147px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.content .name {
+    font-size: 56px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.content .description {
+    color: grey;
+    font-size: 26px;
+    margin: 20px 0;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.content .description strong {
+    color: #FFFFFF;
+}
+
+/* QR code styles */
+.qr {
+    margin: 200px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    line-height: 36px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.footer .right {
+    text-align: center;
+}
